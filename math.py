@@ -9,4 +9,7 @@ def multiply(x,y):
     return x*y  # in Bug456 branch
 #division implementation
 def divide(x,y):
-    pass
+    if x<=0:
+        return ValueError
+    else:
+        return x/y
